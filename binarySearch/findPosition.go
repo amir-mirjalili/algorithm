@@ -18,5 +18,5 @@ func FindPosition() {
 			right = mid - 1
 		}
 	}
-	fmt.Println("index is:", index)
+	fmt.Println("findPosition:", index)
 }

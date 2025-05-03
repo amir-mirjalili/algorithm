@@ -6,9 +6,8 @@ func FindFirsAndLast() {
 	nums := []int{5, 7, 7, 8, 8, 10}
 	target := 8
 	first := findFirst(nums, target)
-	fmt.Println("find first:", first)
 	last := findLast(nums, target)
-	fmt.Println("find last:", last)
+	fmt.Println("find first last:", first, last)
 }
 
 func findFirst(nums []int, target int) int {
